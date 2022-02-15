@@ -89,7 +89,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: $(vmImageName)
-    environment: 'stage-skr-ydh.default'
+    environment: 'stage-skr-ydh.stage-skr-ydh'
     strategy:
       runOnce:
         deploy:
